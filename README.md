@@ -110,7 +110,7 @@ Excel for additional data manipulation, if necessary.
 Deliverables:
 A cleaned and transformed council voting dataset, stored in AWS S3 Curated folder, ready for analysis and reporting.
 A detailed report documenting the steps involved in the data wrangling and ETL pipeline implementation using AWS DataBrew and AWS Glue, including challenges encountered and methods used.
-Visualizations illustrating the results of the EDA, confirming data quality and the success of the transformations.
+
 
 Timeline:
 Week 1: Data wrangling and cleaning using AWS DataBrew, data assessment, and transformations.
@@ -122,6 +122,75 @@ Week 2: Final data validation, documentation, and reporting.
 ![Screenshot 2024-09-15 140915](https://github.com/user-attachments/assets/eeaedddd-008e-4a11-b5f0-ba5eda357f24)
 ![Screenshot 2024-09-15 144259](https://github.com/user-attachments/assets/14ab28d2-d3b0-42c9-b3f2-afc90c39b4a4)
 ![Screenshot 2024-09-15 153158](https://github.com/user-attachments/assets/48b93bfd-f86f-44cd-ac9e-36a0f06faf18)
+
+
+- Project Title: Implementation of Data Quality Control Measures for Council Voting Records (2023-2024)
+Objective: The primary objective of this project is to establish a comprehensive Data Quality Control (DQC) framework for the Council Voting Records (2023-2024) dataset. This framework will ensure the accuracy, completeness, consistency, and reliability of the council’s voting records, which are essential for analysis, reporting, and decision-making processes related to council operations.
+
+Background:
+As the council maintains voting records spanning from 2023 to 2024, challenges have surfaced related to inaccuracies, missing fields, duplicates, and inconsistent data formats across the dataset. These issues, if left unaddressed, can negatively affect analysis, transparency, and operational efficiency. This project aims to implement robust data quality control measures to enhance the reliability and usability of these records, ensuring compliance with internal governance standards.
+
+Scope:
+The project will focus on the following key areas:
+
+Data Profiling: Analyzing the council voting dataset to assess its quality.
+Data Cleansing: Developing processes to correct inaccuracies, eliminate duplicates, and standardize formats.
+Data Validation: Implementing validation rules and checks to ensure data integrity across voting records.
+Monitoring and Reporting: Establishing dashboards and ongoing monitoring processes to track data quality metrics.
+
+Methodology:
+Current State Assessment:
+Conduct a thorough analysis of the Council Voting Records (2023-2024) to identify issues like missing fields, duplicates, and inconsistent data types (e.g., varying date formats, missing agenda descriptions).
+Focus on key fields like Vote Date, Vote Number, Council Member, Agenda Description, Vote Classification, and Decision to assess their impact on council operations and reporting.
+
+Data Profiling:
+Utilize AWS DataBrew and other profiling tools to assess the dataset’s completeness, uniqueness, validity, consistency, and accuracy.
+Document key findings such as missing vote details, incorrect classifications, or inconsistent council member names, highlighting areas that need immediate attention.
+
+Establish Data Quality Metrics:
+Define clear data quality metrics and Key Performance Indicators (KPIs) to evaluate and track data quality over time. These metrics may include:
+Completeness (e.g., percentage of missing fields like Vote Date or Agenda Description).
+
+Monitoring and Reporting:
+AWS CloudWatch and CloudTrail are integrated for real-time monitoring of data quality, resource utilization, and user activities.
+Create dashboards that track metrics such as track the expected charges incurred by utilizing S3 and another to tally the number of objects in the bucket
+To keep costs under control, we put up a CloudWatch alarm that sends an email notice whenever the expected charges reach $35
+Schedule monthly reports to review data quality trends and performance against established KPIs.
+
+Feedback Mechanism:
+Establish a feedback loop to continually assess and improve data quality processes based on user input and observed results.
+Implement user-friendly feedback forms or automatic alerts if data quality issues are detected by council staff during the voting process.
+
+Tools and Technologies:
+AWS Glue: For ETL (Extract, Transform, Load) pipeline implementation and data validation.
+AWS CloudWatch and CloudTrail: For monitoring data quality metrics, resource usage, and user activity in real-time.
+Data visualization tools  for monitoring dashboards and real-time data quality tracking.
+
+Deliverables:
+A comprehensive Data Quality Control plan, detailing procedures, metrics, and responsibilities for council voting data quality management.
+Cleaned and validated council voting records dataset, ready for analysis and reporting, stored in AWS S3 Curated folder.
+Documentation of data quality metrics and KPIs that will be tracked over time, including error rates, completeness, and consistency.
+Training resources, including materials and workshops, designed to educate council staff on data quality practices.
+Monitoring dashboards that visualize real-time data quality metrics and provide alerts when deviations occur.
+
+Timeline:
+Week 1: Conduct data profiling using AWS DataBrew, assess current state, and define data quality metrics.
+Week 2: Implement data cleansing and validation rules in AWS Glue and set up monitoring in CloudWatch and CloudTrail.
+Week 2: Set up data quality dashboards and alarms for real-time monitoring and reporting.
+
+![Screenshot 2024-09-15 160430](https://github.com/user-attachments/assets/30689a2f-45b2-49b1-9ad5-500b90a50baf)
+![Screenshot 2024-09-15 160549](https://github.com/user-attachments/assets/e1828b48-99f7-44f6-97a5-0ea75c921b97)
+![Screenshot 2024-09-15 160642](https://github.com/user-attachments/assets/7530577d-fafa-41b9-8fed-8975974ea1b9)
+![Screenshot 2024-09-15 160721](https://github.com/user-attachments/assets/23ad482a-33fc-43d7-adad-dc48306d6ac9)
+![Screenshot 2024-09-15 160754](https://github.com/user-attachments/assets/63bcb8fd-7c31-4156-83b2-cdf471cd8b4e)
+![Screenshot 2024-09-15 162057](https://github.com/user-attachments/assets/1cd4c343-2b0e-4245-a4a7-761a6baf5358)
+
+
+
+
+
+
+
 
 
 
