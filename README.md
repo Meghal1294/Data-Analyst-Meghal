@@ -33,6 +33,7 @@ Trends in favor and opposition voting over time (e.g., increase or decrease in u
 
 Tools and Technologies:
 AWS Services: Amazon S3 for data storage
+Microsoft excel for Data Visualization, Loading data
 
 Deliverables:
 Data Loading and Preparation:
@@ -203,13 +204,12 @@ Week 2: Set up data quality dashboards and alarms for real-time monitoring and r
 ![Screenshot 2024-09-15 162057](https://github.com/user-attachments/assets/1cd4c343-2b0e-4245-a4a7-761a6baf5358)
 
 
-  Project 2:  Student Disciplinary Records (2023-2024)
- Project 2A: Descriptive Analysis of Student Disciplinary Records (2023-2024)
+  Project 2:  Student Disciplinary Records (2022-2024)
+ Project 2A: Descriptive Analysis of Student Disciplinary Records (2022-2024)
 
-Objective: The primary goal of this project is to conduct a descriptive analysis of student disciplinary records from 2023 and 2024. Through this analysis, we aim to summarize key characteristics of disciplinary actions, identify trends, and generate insights that can inform future disciplinary policies and student engagement strategies.
+Objective: The primary goal of this project is to conduct a descriptive analysis of student disciplinary records from 2022 to 2024. Through this analysis, we aim to summarize key characteristics of disciplinary actions, identify trends, and generate insights that can inform future disciplinary policies and student engagement strategies.
 
-Dataset: The dataset includes student disciplinary records from 2023 and 2024 and contains the following key features:
-
+Dataset: The dataset includes student disciplinary records from 2022 to 2024 and contains the following key features:
 Student ID: Unique identifier for each student.
 First Name: The first name of the student.
 Last Name: The last name of the student.
@@ -218,22 +218,47 @@ Grade Level: The grade level of the student.
 Type of Action: The type of disciplinary action taken (e.g., Minor, Major).
 Description/Type of Misconduct: Brief description of the misconduct.
 Outcome/Action Taken: The outcome of the disciplinary action (e.g., Suspension, Detention).
-Methodology:
 
+Methodology:
 Data Collection and Preparation: Load the dataset using data analysis tools like Excel.
 Descriptive Statistics: Calculate summary statistics for key variables, including:
 Total number of disciplinary actions.
 Breakdown of actions by type (Minor, Major).
 Breakdown of outcomes (Suspension, Detention, etc.).
+
 Data Visualization: Create visual representations to illustrate findings:
-Bar charts displaying the most common types of misconduct.
-Pie charts showing the distribution of outcomes.
+Bar charts displaying the Percentage of Major Action (PMAT) taken
+
 Insights and Findings: Summarize the insights derived from the analysis, highlighting:
 Trends in disciplinary actions over time (e.g., increase or decrease in certain types of misconduct).
-Patterns in outcomes based on grade level or type of misco
+Patterns in outcomes based on grade level or type of misconduct
 
 Tools and Technologies:
 AWS Services: Amazon S3 for data storage
+Microsoft excel for Data Visualization, Loading data
+
+Deliverables:
+Data Loading and Preparation:
+Steps to load data from Amazon S3.
+Descriptive Statistics:
+Summary statistics for key variables (e.g., total number of disciplinary actions, breakdown by type and outcome).
+Data Visualization:
+Visualizations created 
+
+
+
+
+
+![Screenshot 2024-09-17 221309](https://github.com/user-attachments/assets/c85cb808-4bce-4b95-986e-c87841335d45)
+![Screenshot 2024-09-17 221452](https://github.com/user-attachments/assets/e158ebeb-02d1-4420-bf0c-bf0d3ca9b64c)
+![Screenshot 2024-09-17 221531](https://github.com/user-attachments/assets/d684dbe1-9642-4a98-80f3-6a78ee22184e)
+![Screenshot 2024-09-17 222654](https://github.com/user-attachments/assets/dc02c189-8b59-479c-a5fc-4f5ecbfc41de)
+
+
+
+
+
+
 
 
 
