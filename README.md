@@ -1,5 +1,6 @@
 # Data-Analyst-Meghal
-- Project Title: Descriptive Analysis of Council Voting Patterns (2023-2024)
+-         Project 1:               Council Voting Patterns (2023-2024)
+-  Project Title 1A: Descriptive Analysis of Council Voting Patterns (2023-2024)
 
 Objective: The primary goal of this project is to conduct a descriptive analysis of council voting records from 2023 and 2024. Through this analysis, we aim to summarize key characteristics of voting patterns, identify trends, and generate insights that can inform future council decisions and engagement strategies.
 
@@ -30,6 +31,20 @@ Insights and Findings:
 Summarize the insights derived from the analysis, highlighting:
 Trends in favor and opposition voting over time (e.g., increase or decrease in unanimous decisions).
 
+Tools and Technologies:
+AWS Services: Amazon S3 for data storage
+
+Deliverables:
+Data Loading and Preparation:
+Steps to load data from Amazon S3.
+Descriptive Statistics:
+Summary statistics for key variables (e.g., total number of disciplinary actions, breakdown by type and outcome).
+Data Visualization:
+Visualizations created 
+
+
+
+
 ![Screenshot 2024-09-15 111349](https://github.com/user-attachments/assets/561efa2f-2965-4984-ad1d-030b26dc2447)
 ![Screenshot 2024-09-15 111231](https://github.com/user-attachments/assets/0dad5db4-a7f9-4e1f-9a22-2eceaf98a88d)
 ![Screenshot 2024-09-15 111855](https://github.com/user-attachments/assets/896fa2d3-764d-43be-bfda-f121c82efb6f)
@@ -37,7 +52,9 @@ Trends in favor and opposition voting over time (e.g., increase or decrease in u
 ![Screenshot 2024-09-15 134659](https://github.com/user-attachments/assets/e6b79458-0c29-49f4-8b51-b5c137b71787)
 ![Screenshot 2024-09-15 134757](https://github.com/user-attachments/assets/f7ee3207-eb5e-4fe1-a73b-b4c447e0386e)
 
-- Project Title: Data Wrangling and ETL Pipeline Implementation for Council Voting Records (2023-2024) using AWS DataBrew and AWS Glue
+
+
+- Project(1B) Title: Data Wrangling and ETL Pipeline Implementation for Council Voting Records (2023-2024) using AWS DataBrew and AWS Glue
 
 Objective: The primary goal of this project is to perform comprehensive data wrangling and implement an ETL (Extract, Transform, Load) pipeline to prepare a clean and consistent dataset of council voting records from 2023 and 2024. This process aims to enhance the accuracy and usability of the dataset for analysis, reporting, and decision-making regarding council voting trends and behaviors.
 
@@ -124,7 +141,7 @@ Week 2: Final data validation, documentation, and reporting.
 ![Screenshot 2024-09-15 153158](https://github.com/user-attachments/assets/48b93bfd-f86f-44cd-ac9e-36a0f06faf18)
 
 
-- Project Title: Implementation of Data Quality Control Measures for Council Voting Records (2023-2024)
+- Project(1C) Title: Implementation of Data Quality Control Measures for Council Voting Records (2023-2024)
 Objective: The primary objective of this project is to establish a comprehensive Data Quality Control (DQC) framework for the Council Voting Records (2023-2024) dataset. This framework will ensure the accuracy, completeness, consistency, and reliability of the council’s voting records, which are essential for analysis, reporting, and decision-making processes related to council operations.
 
 Background:
@@ -186,6 +203,37 @@ Week 2: Set up data quality dashboards and alarms for real-time monitoring and r
 ![Screenshot 2024-09-15 162057](https://github.com/user-attachments/assets/1cd4c343-2b0e-4245-a4a7-761a6baf5358)
 
 
+  Project 2:  Student Disciplinary Records (2023-2024)
+ Project 2A: Descriptive Analysis of Student Disciplinary Records (2023-2024)
+
+Objective: The primary goal of this project is to conduct a descriptive analysis of student disciplinary records from 2023 and 2024. Through this analysis, we aim to summarize key characteristics of disciplinary actions, identify trends, and generate insights that can inform future disciplinary policies and student engagement strategies.
+
+Dataset: The dataset includes student disciplinary records from 2023 and 2024 and contains the following key features:
+
+Student ID: Unique identifier for each student.
+First Name: The first name of the student.
+Last Name: The last name of the student.
+Date of Record: The date when the disciplinary action was recorded.
+Grade Level: The grade level of the student.
+Type of Action: The type of disciplinary action taken (e.g., Minor, Major).
+Description/Type of Misconduct: Brief description of the misconduct.
+Outcome/Action Taken: The outcome of the disciplinary action (e.g., Suspension, Detention).
+Methodology:
+
+Data Collection and Preparation: Load the dataset using data analysis tools like Excel.
+Descriptive Statistics: Calculate summary statistics for key variables, including:
+Total number of disciplinary actions.
+Breakdown of actions by type (Minor, Major).
+Breakdown of outcomes (Suspension, Detention, etc.).
+Data Visualization: Create visual representations to illustrate findings:
+Bar charts displaying the most common types of misconduct.
+Pie charts showing the distribution of outcomes.
+Insights and Findings: Summarize the insights derived from the analysis, highlighting:
+Trends in disciplinary actions over time (e.g., increase or decrease in certain types of misconduct).
+Patterns in outcomes based on grade level or type of misco
+
+Tools and Technologies:
+AWS Services: Amazon S3 for data storage
 
 
 
