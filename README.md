@@ -1,8 +1,8 @@
 # Data-Analyst-Meghal
 
 
-**Project 1:Council Voting Patterns (2023-2024)**
--  **Project Title 1A: Descriptive Analysis of Council Voting Patterns (2023-2024)**
+**Project 1:Council Voting Records, City of Vancouver (2023-2024)**
+-  **Project Title 1A: Descriptive Analysis of Council Voting Records (2023-2024)**
 
 **Objective**: The primary goal of this project is to conduct a descriptive analysis of council voting records from 2023 and 2024. Through this analysis, we aim to summarize key characteristics of voting patterns, identify trends, and generate insights that can inform future council decisions and engagement strategies.
 
