@@ -318,6 +318,8 @@ Week 1: Data wrangling and cleaning using AWS DataBrew, data assessment, and tra
 Week 2: ETL pipeline setup and execution using AWS Glue.
 Week 2: Final data validation, documentation, and reporting.
 
+
+![Screenshot 2024-09-17 231413](https://github.com/user-attachments/assets/552600ae-a498-4701-8504-76d2d691d360)
 ![Screenshot 2024-09-17 224146](https://github.com/user-attachments/assets/b8493ce1-7ed9-452b-bce1-239802a6284b)
 ![Screenshot 2024-09-17 231142](https://github.com/user-attachments/assets/772e7aa6-5827-4b69-a3c5-c79a8e014bad)
 
@@ -378,6 +380,9 @@ Monitoring dashboards that visualize real-time data quality metrics and provide 
 Week 1: Conduct data profiling using AWS DataBrew, assess current state, and define data quality metrics.
 Week 2: Implement data cleansing and validation rules in AWS Glue and set up monitoring in CloudWatch and CloudTrail.
 Week 3: Set up data quality dashboards and alarms for real-time monitoring and reporting
+
+![Screenshot 2024-09-17 231903](https://github.com/user-attachments/assets/c042e1e8-6b19-437c-9a8b-02c2f7120afb)
+
 
 
 
